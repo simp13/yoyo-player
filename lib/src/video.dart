@@ -119,7 +119,7 @@ class _YoYoPlayerState extends State<YoYoPlayer>
   // video full screen
   bool fullScreen = false;
   // menu show
-  bool showMenu = false;
+  bool showMenu = true;
   // auto show subtitle
   bool showSubtitles = false;
   // video status

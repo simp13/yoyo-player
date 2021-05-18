@@ -25,7 +25,7 @@ Widget bottomBar(
                         controller,
                         allowScrubbing: true,
                         colors: VideoProgressColors(
-                            playedColor: Color.fromARGB(250, 0, 255, 112)),
+                            playedColor: Color(0xfffed249),
                         padding: EdgeInsets.only(left: 5.0, right: 5),
                       ),
                       Padding(
