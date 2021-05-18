@@ -7,11 +7,11 @@ class VideoStyle {
     this.pause = const Icon(Icons.pause),
     this.fullscreen = const Icon(Icons.fullscreen),
     this.forward = const Icon(
-      Icons.fast_forward_rounded,
+      Icons.skip_next,
       color: Colors.white,
     ),
     this.backward = const Icon(
-      Icons.fast_rewind_rounded,
+      Icons.skip_previous,
       color: Colors.white,
     ),
     this.playedColor = Colors.red,
