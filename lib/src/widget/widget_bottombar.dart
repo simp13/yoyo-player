@@ -24,8 +24,8 @@ Widget bottomBar(
                       VideoProgressIndicator(
                         controller,
                         allowScrubbing: true,
-                        colors: VideoProgressColors(
-                            playedColor: Color(0xfffed249),
+                        colors:
+                            VideoProgressColors(playedColor: Color(0xfffed249)),
                         padding: EdgeInsets.only(left: 5.0, right: 5),
                       ),
                       Padding(
@@ -59,10 +59,14 @@ Widget bottomBar(
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           InkWell(
-                              onTap: () {
-                                rewind(controller);
-                              },
-                              child: backwardIcon),
+                            onTap: () {
+                              rewind(controller);
+                            },
+                            child: Icon(
+                              Icons.skip_previous,
+                              color: Colors.white,
+                            ),
+                          ),
                           InkWell(
                             onTap: play,
                             child: Icon(
@@ -74,10 +78,14 @@ Widget bottomBar(
                             ),
                           ),
                           InkWell(
-                              onTap: () {
-                                fastForward(controller: controller);
-                              },
-                              child: forwardIcon),
+                            onTap: () {
+                              fastForward(controller: controller);
+                            },
+                            child: Icon(
+                              Icons.skip_next,
+                              color: Colors.white,
+                            ),
+                          ),
                         ],
                       ),
                     ),
