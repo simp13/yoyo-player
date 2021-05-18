@@ -14,7 +14,7 @@ class VideoStyle {
       Icons.fast_rewind_rounded,
       color: Colors.white,
     ),
-    this.playedColor = Colors.green,
+    this.playedColor = Colors.red,
     this.qualitystyle = const TextStyle(
       color: Colors.white,
     ),
